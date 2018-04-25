@@ -1,0 +1,79 @@
+body { margin: 0; font-family: 'Roboto', sans-serif;}
+
+body.register{
+  background: url(../images/register.jpg) no-repeat center center fixed;
+}
+body.myEvents{
+  background: url(../images/myevents.jpg);
+}
+#nav ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  background-color: #000000;
+  overflow: hidden;
+
+}
+#nav li{
+  display: inline;
+  float:right;
+}
+#nav a{
+  font-size: 30px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav a:hover{
+  background-color: #418ef4;
+}
+#main{
+  margin:0 auto;
+  width:50%;
+  color:black;
+  margin:0 auto;
+  margin-top:10px;
+  text-align:center;
+  border:1px solid black;
+  background-color: white;
+  padding:10px;
+  border-radius:10px
+}
+
+#mainHome{
+  color:white;
+  text-align:center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 75%;
+  height: 100px;
+}
+.button{
+  background-color: black;
+  border:none;
+  font-size:25px;
+  padding:10px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.button:hover{
+  background-color: #418ef4;
+}
+.form {
+  padding: 10px;
+  font-size: 25px;
+}
+.event{
+  margin: 10px;
+  padding:10px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
